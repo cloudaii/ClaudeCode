@@ -8,6 +8,7 @@ pkg update && pkg upgrade -y
 pkg install nodejs-lts git -y
 ```
 # 2. Install Claude Code CLI
+**Install Claude Code globally using npm.**
 
 ```
 npm install -g @anthropic-ai/claude-code
@@ -17,9 +18,10 @@ npm install -g @anthropic-ai/claude-code
 YOUR_OPENROUTER_API_KEY
 ```
 with your API key:
-Get free api key - [https://openrouter.ai/]
+Get free api key - https://openrouter.ai/
 
 # 3. Configure OpenRouter API
+**Add the OpenRouter configuration to your shell profile.**
 ```
 cat <<EOF >> ~/.bashrc
 
@@ -33,6 +35,7 @@ EOF
 source ~/.bashrc
 ```
 # Starting Claude Code
+**Launch the Claude Code**
 
 ```
 claude
