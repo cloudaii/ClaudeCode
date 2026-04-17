@@ -1,9 +1,10 @@
 # ClaudeCode Installation
+
 # 1. Update Termux and Install Dependencies
-* Update your system packages and install Node.js and Git.*
+**Update your system packages and install Node.js and Git.**
 
  ```
-  pkg update && pkg upgrade -y
+pkg update && pkg upgrade -y
 pkg install nodejs-lts git -y
 ```
 # 2. Install Claude Code CLI
