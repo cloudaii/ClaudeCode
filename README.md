@@ -11,7 +11,7 @@ pkg install nodejs-lts git -y
 **Install Claude Code globally using npm.**
 
 ```
-npm install -g @anthropic-ai/claude-code
+npm install -g @anthropic-ai/claude-code@2.1.112
 ```
 # Replace Api Key:
 ```
@@ -27,7 +27,7 @@ cat <<EOF >> ~/.bashrc
 
 # Claude Code + OpenRouter Config
 export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
-export ANTHROPIC_AUTH_TOKEN="YOUR_API_KEY_HERE"
+export ANTHROPIC_AUTH_TOKEN="YOUR_API_KEY_ HERE"
 export ANTHROPIC_API_KEY=""
 export ANTHROPIC_MODEL="openrouter/free"
 EOF
@@ -41,5 +41,10 @@ source ~/.bashrc
 claude
 ```
 # Example 
-
+```
+create a tic tac toe game using html
+```
+```
+give me the localhost url
+```
 
